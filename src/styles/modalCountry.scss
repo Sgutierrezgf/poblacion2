@@ -1,0 +1,33 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Modal_container {
+    position: relative;
+    top: 10rem;
+    background: var(--background);
+    color: var(--color);
+    padding: 1rem;
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+  }
+  
+  .modal_close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    color: var(--color);
+    cursor: pointer;
+  }
